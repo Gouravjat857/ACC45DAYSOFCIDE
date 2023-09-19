@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x,y,z,t,i=0;
+    cout<<"enter the no.of test\n";
+    cin>>t;
+    while(i<t){
+      cout<<" enter the value of 5 rupees coin\n";
+cin>>x;
+cout<<"enter theb value of 10 rupees of coin\n";
+cin>>y;
+cout<<"enter the price of chocalates\n";
+cin>>z;
+int p;
+p=(x*5+y*10)/z;
+cout<<"the no. of chocalates you can buy\n"<<p;
+    }
+return 0;
+}
