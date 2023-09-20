@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main() {
+int x,y,t;
+cin>>t;
+while(t--){
+cout << "enter the no. of students \n";
+cin>>x;
+cout<<"enter the no. of chairs present for students in the class  \n";
+cin>>y;
+   if(x>=y) {
+ cout<<x-y<<endl;
+}
+else if(x<y){
+cout<<"no.of chairs needed:"<<0<<endl;
+}
+else{
+cout<<"no.of chairs needed: "<<0<<endl;
+}
+}
+    return 0;
+}
