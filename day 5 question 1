@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int t,n,m;
+cout<<"no. of test cases\n";
+cin>>t;
+while(t--){
+    cout<<"no. of people\n";
+    cin>>n;
+    if(n>4){
+ if(n%4!=0){
+m=(n/4)+1;
+        cout<<"no. of cars needed"<<m<<endl;
+    }
+ else if(n%4==0){
+    m=n/4;
+        cout<<"no. of cars needed"<<m<<endl;
+    }
+    }
+    else{
+        n<=4;
+        m=1;
+        cout<<"no. of cars needed "<<m<<endl;
+    }
+}
+	return 0;
+}
