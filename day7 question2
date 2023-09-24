@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int t,a,b,c;
+    cout<<"enter the no. of test cases\n";
+    cin>>t;
+    while(t--){
+        cout<<"enter the no of people of city A\n";
+        cin>>a;
+        cout<<"enter the no of people of city B\n";
+        cin>>b;
+        cout<<"enter the no of people of city C\n";
+        cin>>c;
+        if(a+c>=b){
+            cout<<"maximum no. of people invited are\n"<<a+c<<endl;
+        }
+        else{
+            cout<<"maximum no of people invited are\n"<<b<<endl;
+        }
+        }
+    return 0;
+}
