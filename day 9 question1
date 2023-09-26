@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int t,x,y;
+    cout<<"test cases\n";
+    cin>>t;
+    while(t--){
+        cout<<"cooler rent price\n";
+        cout<<"cooler purchase price\n";
+        cin>>x>>y;
+        if(x<y){
+            cout<<"yes\n"<<(y-1)/x<<endl;
+        }
+        else{
+cout<<"no\n"<<endl;
+        }
+    }
+	return 0;
+}
