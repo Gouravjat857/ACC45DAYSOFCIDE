@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main () {
+int x;
+cout<<"x\n";
+cin>>x;
+if(x>=8 && x>=9 && x<=10){
+printf("yes\n");
+}
+else {
+    cout<<"no\n";
+}
+return 0;
+}
