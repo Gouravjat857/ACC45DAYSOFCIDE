@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int T,X,Y,Z;
+    int t;
+   // cout<<"T\n";
+    cin>>T;
+    while(T--){
+//cout<<"X"<<"Y"<<"Z"<<endl;
+        cin>>X;
+        cin>>Y;
+        cin>>Z;
+    int t=Y/X;
+        if(t<Z){
+cout<<Z-t<<endl;
+        }
+        else {
+            cout<<"0"<<endl;
+        }
+    }
+}
