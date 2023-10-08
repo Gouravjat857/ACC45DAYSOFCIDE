@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n;
+	    cin>>n;
+	    int a=n;
+	    int count=0;
+	    while(n%10==9){
+	        count++;
+	        n/=10;
+	    }
+	    if(count%2==1){
+	       cout<<a+2<<endl;
+	    }
+	    else{
+	        cout<<a+1<<endl;
+	    }
+	}
+	return 0;
+}
