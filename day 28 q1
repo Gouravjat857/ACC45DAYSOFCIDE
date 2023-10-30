@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int a,b,x,y;
+	    cin>>a>>b>>x>>y;
+	    int v;
+	    if(a-b>0 && y<(a-b)){
+	        cout<<"NO"<<endl;
+	    }
+	    else if(a-b>0 && y>(a-b)){
+	        cout<<"YES"<<endl;
+	    }
+	    else if(a-b<0 && x<(-(a-b))){
+	        cout<<"NO"<<endl;
+	    }
+	    else{
+	        cout<<"YES"<<endl;
+	    }
+	}
+	return 0;
+}
