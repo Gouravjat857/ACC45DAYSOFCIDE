@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	cin>>t;
+	while(t--)
+	{
+	    int a,b;
+	    cin>>a>>b;
+	    if(a>b)
+	    {
+	        cout<<2*a-b << endl;
+	    }
+	    else
+	    {
+	        cout << a << endl;
+	    }
+	}
+	return 0;
+}
