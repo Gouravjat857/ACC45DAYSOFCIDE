@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+void prime(int N){
+    for(int i=2;i<N/2;i++){
+        if(N%i==0){
+            cout<<"no"<<endl;
+            return;
+        }
+    }
+    cout<<"yes"<<endl;
+
+}
+int main(){
+    int T,n;
+  //  cout<<"enter the test cases: ";
+    cin>>T;
+    while(T--){
+     //   cout<<"enter an integer: ";
+        cin>>n;
+        prime(n);
+    }
+    return 0;
+}
